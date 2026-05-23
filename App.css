@@ -1,0 +1,36 @@
+body { margin: 0; background: #000; }
+.game-container {
+  color: #d4c4a8;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.res-bar {
+  background: #1a1715;
+  padding: 15px;
+  border-bottom: 2px solid #8b1a1a;
+  display: flex;
+  justify-content: space-around;
+}
+.map-area {
+  flex-grow: 1;
+  padding-top: 50px;
+}
+.medieval-text {
+  color: #b8860b;
+  font-size: 2.5rem;
+}
+.actions {
+  padding: 20px;
+  background: #2e251c;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+button {
+  background: #8b1a1a;
+  color: #fff;
+  border: 1px solid #b8860b;
+  padding: 10px;
+}
